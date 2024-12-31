@@ -1,4 +1,4 @@
-const apiId = '6270qzgf7b'
+const apiId = 'yqlivtubdd'
 export const apiEndpoint = `https://${apiId}.execute-api.us-east-1.amazonaws.com/dev`
 
 export const authConfig = {

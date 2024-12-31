@@ -6,8 +6,6 @@ plugins:
   - serverless-iam-roles-per-function
   - serverless-reqvalidator-plugin
 
-frameworkVersion: '3'
-
 provider:
   name: aws
   runtime: nodejs18.x

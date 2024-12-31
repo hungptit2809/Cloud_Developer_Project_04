@@ -53,7 +53,7 @@ export function EditTodo() {
 
       alert('File was uploaded!')
     } catch (e) {
-      alert('File was uploaded!')
+      alert('Could not upload a file: ' + e.message)
     } finally {
       setUploadState(UploadState.NoUpload)
     }
